@@ -98,11 +98,11 @@ Este proyecto corresponde a la implementación de un sistema de consola en Pytho
 2. **Instalar MySQL Server**  
    - Instalar MySQL Community Server 8.x (o 5.7).
    - Configuracion de la conexion del codigo python con la base de datos:
-     > host: Poner el nombre del host que tenga la maquina desde la cual se va a ejectutar el programa, en nuestro caso es 'localhost' .
-     > user: Entrar a la base de datos y mirar con que user tenemos nuestra base de datos y lo colacos en la parte del codigo que dice usea, en nuestro caso es 'user'.
-     > password: Poner en el codigo de python la contraseña con la que tenemos configurada nuestra base de datos.
-     > database: En este apartado dejamos ese nombre asi como esta ya que ese es el nombre de la base de datos con la cual vamos a trabajar nuestro programa.
-     > port: En port vamos a poner el puerto de nuestra conexion de la base de datos, por lo general viene configurado como '3306'.
+     - **host:** Poner el nombre del host que tenga la maquina desde la cual se va a ejectutar el programa, en nuestro caso es 'localhost' .
+     - **user:** Entrar a la base de datos y mirar con que user tenemos nuestra base de datos y lo colacos en la parte del codigo que dice usea, en nuestro caso es 'user'.
+     - **password:** Poner en el codigo de python la contraseña con la que tenemos configurada nuestra base de datos.
+     - **database:** En este apartado dejamos ese nombre asi como esta ya que ese es el nombre de la base de datos con la cual vamos a trabajar nuestro programa.
+     - **port:** En port vamos a poner el puerto de nuestra conexion de la base de datos, por lo general viene configurado como '3306'.
 
 3. **Instalar `mysql-connector-python`**  
    ```bash
